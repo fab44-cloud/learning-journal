@@ -9,6 +9,11 @@ body {
     margin: 0;
 }
 
+header img {
+    height: 40px;
+    width: auto;
+}
+
 .container {
     width: 90%;
     max-width: 900px;
