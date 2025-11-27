@@ -9,9 +9,30 @@ body {
     margin: 0;
 }
 
-header img {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
     height: 40px;
     width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 1em;
+}
+
+.nav-links a {
+    color: #090909;
+    text-decoration: none;
 }
 
 .container {
