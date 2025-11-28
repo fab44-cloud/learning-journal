@@ -35,6 +35,18 @@ body {
     text-decoration: none;
 }
 
+.main-blog {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('images/main-blog-img.png');
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    padding: 4em 1em 1em;
+}
+
 .container {
     width: 90%;
     max-width: 900px;
@@ -47,15 +59,6 @@ body {
     display: grid;
     gap: 1em;  
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
-}
-
-.main-blog {
-    background-image: url('images/main-blog-img.png');
-    background-color: #333;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: #FFFFFF;
 }
 
 article {
